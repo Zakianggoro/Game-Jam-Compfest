@@ -4,44 +4,5 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Assets/Scenes/Main Menu/Main-Menu-Example.unity
-    guid: 590f605fed1463043828134c464ad21f
-  - enabled: 1
-    path: Assets/Scenes/Dialog/Dialog PreStory.unity
-    guid: ef03038de0bff1e43a7b151f979d5934
-  - enabled: 1
-    path: Assets/Scenes/Over World/Over World.unity
-    guid: 4c0ce242583ee9445b933210a0d636f6
-  - enabled: 1
-    path: Assets/Scenes/Task 1/Dialog 1.unity
-    guid: 2f30b2f2aa09f58488b1ee86aa5872bf
-  - enabled: 1
-    path: Assets/Scenes/Task 1/Task 1.unity
-    guid: e0733d1fba45847408a84cc592944f9e
-  - enabled: 1
-    path: Assets/Scenes/Over World/Overworld Task 1.unity
-    guid: 0e81781db7d7ee94d9d88e0a55e68477
-  - enabled: 1
-    path: Assets/Scenes/Task 2/Dialog 2.unity
-    guid: a3869fa25f06e064abb0c42b272a53bb
-  - enabled: 1
-    path: Assets/Scenes/Task 2/Task 2.unity
-    guid: b6b0e029f68cc7446a6cbf74ebdc0535
-  - enabled: 1
-    path: Assets/Scenes/Over World/Overworld Task 2.unity
-    guid: b9fbbe7cd34e3ca47ac8264935714f40
-  - enabled: 1
-    path: Assets/Scenes/Task 3/Dialog 3.unity
-    guid: e17012b9d38c5014cba7c768be16ea44
-  - enabled: 1
-    path: Assets/Scenes/Task 3/Task 3.unity
-    guid: 60d88d743fb56b141b91d00c34a0a47a
-  - enabled: 1
-    path: Assets/Scenes/Over World/Overworld Task 3.unity
-    guid: ff14ed3d068f27f4f9ee72c1ed6598c9
-  - enabled: 1
-    path: Assets/Scenes/End/Dialog 4.unity
-    guid: 73ec6cda505417c4798ce3883b16b97d
+  m_Scenes: []
   m_configObjects: {}
