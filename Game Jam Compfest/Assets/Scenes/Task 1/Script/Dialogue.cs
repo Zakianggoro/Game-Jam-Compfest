@@ -2,13 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
+
 public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
-    public float textSpeed;
+    public float textSpeed = 0.05f; // Default value for text speed
+    public float lineWaitTime = 1.0f; // Time to wait after a line is fully displayed before proceeding
 
     private int index;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +23,7 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
             if (textComponent.text == lines[index])
             {
@@ -46,6 +50,8 @@ public class Dialogue : MonoBehaviour
             textComponent.text += c;
             yield return new WaitForSeconds(textSpeed);
         }
+        yield return new WaitForSeconds(lineWaitTime);
+        NextLine();
     }
 
     void NextLine()
@@ -58,7 +64,12 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            ChangeScene();
         }
+    }
+
+    void ChangeScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

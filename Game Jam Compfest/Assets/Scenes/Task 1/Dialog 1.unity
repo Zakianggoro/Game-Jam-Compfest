@@ -123,6 +123,138 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &282871907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 921.2702
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 565.52026
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -5.259514
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6447876115160542720, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8148829530765059034, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+      propertyPath: m_Name
+      value: Village in despair
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6529d3ffec2330d40b84d01036fd5ef8, type: 3}
+--- !u!1 &422447517
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 422447518}
+  - component: {fileID: 422447520}
+  - component: {fileID: 422447519}
+  m_Layer: 5
+  m_Name: NPC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &422447518
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422447517}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1863444849}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -735, y: 129.21375}
+  m_SizeDelta: {x: 150, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &422447519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422447517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1750214339324291994, guid: c3eee2490a171fb4daa1c2b89df622a6, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &422447520
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 422447517}
+  m_CullTransparentMesh: 1
 --- !u!1 &586600575
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,6 +643,7 @@ MonoBehaviour:
   - 2
   - 3
   textSpeed: 5
+  lineWaitTime: 0.1
 --- !u!1 &1863444845
 GameObject:
   m_ObjectHideFlags: 0
@@ -607,6 +740,7 @@ RectTransform:
   m_Children:
   - {fileID: 956507990}
   - {fileID: 2140199776}
+  - {fileID: 422447518}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -705,9 +839,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 1761982982}
   lines:
-  - 1
-  - 2
-  textSpeed: 5
+  - 'Agung: "Halo, Profesor. Apa yang bisa saya bantu?"'
+  - 'Profesor: "Halo, Agung! Sistem komputer kita telah terinfeksi oleh virus berbahaya.
+    Saya butuh bantuanmu untuk mengalahkan virus ini dan melindungi data berharga
+    kita."'
+  - 'Agung: "Apa yang harus saya lakukan?"'
+  - 'Profesor: "Kamu harus masuk ke dalam sistem dan menghancurkan semua virus yang
+    muncul. Setiap virus yang kamu kalahkan akan membantu memperkuat pertahanan komputer
+    kita. Semoga berhasil!"'
+  - Klik untuk lanjut
+  textSpeed: 0.1
+  lineWaitTime: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -715,3 +857,4 @@ SceneRoots:
   - {fileID: 586600578}
   - {fileID: 1863444849}
   - {fileID: 1482938081}
+  - {fileID: 282871907}

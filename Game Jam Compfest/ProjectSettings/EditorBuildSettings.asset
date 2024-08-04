@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu/Main-Menu-Example.unity
     guid: 590f605fed1463043828134c464ad21f
   - enabled: 1
-    path: Assets/Scenes/Dialog/Dialog.unity
-    guid: 717eacee64df0ae4391a4b96afea0c34
+    path: Assets/Scenes/Dialog/Dialog PreStory.unity
+    guid: ef03038de0bff1e43a7b151f979d5934
   - enabled: 1
     path: Assets/Scenes/Over World/Over World.unity
     guid: 4c0ce242583ee9445b933210a0d636f6
