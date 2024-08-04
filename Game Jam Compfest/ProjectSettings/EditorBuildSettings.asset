@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/End/Dialog 4.unity
     guid: 73ec6cda505417c4798ce3883b16b97d
+  - enabled: 1
+    path: Assets/Scenes/End/Credit.unity
+    guid: afecab32fd1c24448989e2ec3c3d4f8e
   m_configObjects: {}
