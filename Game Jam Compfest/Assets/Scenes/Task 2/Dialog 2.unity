@@ -840,14 +840,13 @@ MonoBehaviour:
   textComponent: {fileID: 1761982982}
   lines:
   - 'Agung: "Selamat siang, Kakek. Apa yang bisa saya lakukan untuk Anda?"'
-  - 'Kakek Tua: "Ah, selamat siang! Aku punya tantangan untukmu. Di taman ini, ada
-    banyak koin tersembunyi. Aku butuh seseorang yang gesit untuk mengumpulkan semua
-    koin tersebut dengan melakukan parkour."'
-  - 'Agung: "Parkour? Terdengar menyenangkan! Apa ada tips untuk mengumpulkan koin
-    dengan cepat?"'
-  - 'Kakek Tua: "Jangan takut melompat dari ketinggian, dan perhatikan baik-baik
-    rintangan di sekitarmu. Kecepatan dan ketepatan adalah kuncinya. Selamat berburu
-    koin, Nak!"'
+  - 'Kakek Tua: "Ah, selamat siang! Aku punya permintaan untukmu. Di taman ini, ada
+    sebuah core energy yang bisa membantu Centra. Aku butuh seseorang yang gesit
+    untuk melakukan parkour."'
+  - 'Agung: "Parkour? Terdengar menyenangkan!"'
+  - 'Kakek Tua: "Jangan terlalu terburu-buru nak perhatikan baik-baik rintangan di
+    sekitarmu. Kecepatan dan ketepatan adalah kuncinya. Hati-hati, Nak!"'
+  - Gunakan W,A,S & D dan Shift untuk Dash
   - Klik untuk lanjut
   textSpeed: 0.1
   lineWaitTime: 0.2

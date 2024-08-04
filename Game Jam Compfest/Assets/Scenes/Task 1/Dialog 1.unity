@@ -847,6 +847,7 @@ MonoBehaviour:
   - 'Profesor: "Kamu harus masuk ke dalam sistem dan menghancurkan semua virus yang
     muncul. Setiap virus yang kamu kalahkan akan membantu memperkuat pertahanan komputer
     kita. Semoga berhasil!"'
+  - Lakukkan pertarungan menggunakan Turn Base Combat
   - Klik untuk lanjut
   textSpeed: 0.1
   lineWaitTime: 0.2

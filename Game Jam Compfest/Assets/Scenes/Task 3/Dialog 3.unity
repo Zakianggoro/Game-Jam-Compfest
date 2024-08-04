@@ -707,8 +707,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -657.88654, y: 184.80489}
-  m_SizeDelta: {x: 299.9055, y: 306.9135}
+  m_AnchoredPosition: {x: -724.2019, y: 151.6473}
+  m_SizeDelta: {x: 167.2748, y: 240.5983}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2105794174
 MonoBehaviour:
@@ -730,7 +730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a33102614af0fc459cc0807bd1a4f13, type: 3}
+  m_Sprite: {fileID: -319649102, guid: eaf6f3eb022470245ae7e241eeb24909, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -841,13 +841,14 @@ MonoBehaviour:
   lines:
   - 'Agung: "Selamat sore, Pak Polisi. Ada yang bisa saya bantu?"'
   - 'Polisi: "Selamat sore! Kami butuh bantuanmu untuk mengalahkan gelombang penjahat
-    yang menyerang kota. Tugasmu adalah mengalahkan mereka untuk membantu menjaga
-    keamanan kota."'
-  - 'Agung: "Baiklah pak saya akan segera membasminya"'
+    yang menyerang kota. Tugasmu adalah mengalahkan mereka dan membantu menjaga keamanan
+    kota." '
+  - 'Agung: "Baik Pak Polisi saya akan membantu?"'
   - 'Polisi: "Hati-hati, mereka tidak akan menyerah begitu saja. Semoga beruntung!"'
+  - Gunakan W,A,S & D untuk bergerak dan gunakan tombol kiri mouse untuk menembak
   - Klik Untuk Lanjut
-  textSpeed: 5
-  lineWaitTime: 1
+  textSpeed: 0.1
+  lineWaitTime: 0.2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
