@@ -11,7 +11,7 @@ public class Task3 : MonoBehaviour
     {
         if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            SceneManager.LoadScene(6); 
+            SceneManager.LoadScene(9); 
         }
     }
 

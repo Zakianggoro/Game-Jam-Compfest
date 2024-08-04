@@ -39,13 +39,6 @@ public class Level : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (startNextLevel)
@@ -58,11 +51,11 @@ public class Level : MonoBehaviour
                 {
                     string sceneName = levels[currentLevel - 1];
                     SceneManager.LoadSceneAsync(sceneName);
-                    UpdateThresholdText(); // Update threshold text saat pindah level
+                    UpdateThresholdText(); // Update threshold text when switching levels
                 }
                 else
                 {
-                    GameOver();
+                    NextScene(); // Go to the next scene after the last level
                 }
                 nextLevelTimer = 3;
                 startNextLevel = false;
@@ -85,7 +78,7 @@ public class Level : MonoBehaviour
         AddScore(score);
         string sceneName = levels[currentLevel - 1];
         SceneManager.LoadScene(sceneName);
-        UpdateThresholdText(); // Update threshold text saat reset level
+        UpdateThresholdText(); // Update threshold text when resetting the level
     }
 
     public void AddScore(int amountToAdd)
@@ -93,7 +86,7 @@ public class Level : MonoBehaviour
         score += amountToAdd;
         scoreText.text = score.ToString();
 
-        // Tambahkan pengecekan threshold skor
+        // Add score threshold check
         if (score >= scoreThresholds[currentThresholdIndex])
         {
             ClearDestructables();
@@ -133,10 +126,24 @@ public class Level : MonoBehaviour
         }
     }
 
+    private void NextScene()
+    {
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.Log("No more levels. Game Over.");
+            // Optionally, add code to handle the end of the game, like returning to the main menu
+        }
+    }
+
     private void GameOver()
     {
         Debug.Log("GAME OVER!!!");
-        // Tambahkan logika akhir permainan di sini
-        // Misalnya, tampilkan layar akhir permainan, kembali ke menu utama, dll.
+        // Add end game logic here
+        // For example, display the end game screen, return to the main menu, etc.
     }
 }

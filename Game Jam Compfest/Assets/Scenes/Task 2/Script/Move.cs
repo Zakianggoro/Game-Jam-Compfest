@@ -26,7 +26,7 @@ public class Movement : MonoBehaviour
     private void Awake()
     {
         rB = GetComponent<Rigidbody2D>(); // Will look for the component on this GameObject(What the script is attached to) of type rigidbody.
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
     // Start is called before the first frame update 
     void Start()
@@ -85,9 +85,9 @@ public class Movement : MonoBehaviour
         {
             FlipCharacter();
         }
-        /*anim.SetBool("run", moveDirection != 0); // animation for running
+        anim.SetBool("Run", moveDirection != 0); // animation for running
         anim.SetBool("Grounded", grounded);// animation for checking whether the character is touching object tagged "Ground"
-        anim.SetBool("Dash", isDashing);*/
+        anim.SetBool("Dash", isDashing);
     }
 
     private void Move()
@@ -149,7 +149,7 @@ public class Movement : MonoBehaviour
     {
 
         canDash = false;
-        //anim.SetTrigger("Dash");
+        anim.SetTrigger("Dash");
         isDashing = true;
         rB.velocity = new Vector2(moveDirection * dashSpeed, rB.velocity.y);
 

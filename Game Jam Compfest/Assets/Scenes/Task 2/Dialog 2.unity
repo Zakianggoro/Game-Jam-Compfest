@@ -846,7 +846,7 @@ MonoBehaviour:
   - 'Agung: "Parkour? Terdengar menyenangkan!"'
   - 'Kakek Tua: "Jangan terlalu terburu-buru nak perhatikan baik-baik rintangan di
     sekitarmu. Kecepatan dan ketepatan adalah kuncinya. Hati-hati, Nak!"'
-  - Gunakan W,A,S & D dan Shift untuk Dash
+  - Gunakan A&D, Spasi untuk loncat dan Shift untuk Dash
   - Klik untuk lanjut
   textSpeed: 0.1
   lineWaitTime: 0.2
