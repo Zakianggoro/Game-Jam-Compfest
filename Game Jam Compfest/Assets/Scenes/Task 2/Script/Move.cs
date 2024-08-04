@@ -117,7 +117,8 @@ public class Movement : MonoBehaviour
             if (grounded)
             {
                 isJumping = true;
-                //anim.SetTrigger("Jump");
+                grounded = false;
+                anim.SetTrigger("Jump");
                 if (isJumping)
                 {
                     rB.AddForce(new Vector2(0f, jumpForce)); // (x,y) with the jumpforce being added in the project
@@ -131,8 +132,6 @@ public class Movement : MonoBehaviour
                     jumpCounter--;
                 }
             }
-            grounded = false;
-            isJumping = false;
         }
     }
 
