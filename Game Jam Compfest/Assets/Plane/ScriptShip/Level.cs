@@ -51,11 +51,11 @@ public class Level : MonoBehaviour
                 {
                     string sceneName = levels[currentLevel - 1];
                     SceneManager.LoadSceneAsync(sceneName);
-                    UpdateThresholdText(); // Update threshold text when switching levels
+                    UpdateThresholdText(); 
                 }
                 else
                 {
-                    NextScene(); // Go to the next scene after the last level
+                    NextScene(); 
                 }
                 nextLevelTimer = 3;
                 startNextLevel = false;
@@ -78,7 +78,7 @@ public class Level : MonoBehaviour
         AddScore(score);
         string sceneName = levels[currentLevel - 1];
         SceneManager.LoadScene(sceneName);
-        UpdateThresholdText(); // Update threshold text when resetting the level
+        UpdateThresholdText(); 
     }
 
     public void AddScore(int amountToAdd)
@@ -136,14 +136,11 @@ public class Level : MonoBehaviour
         else
         {
             Debug.Log("No more levels. Game Over.");
-            // Optionally, add code to handle the end of the game, like returning to the main menu
         }
     }
 
     private void GameOver()
     {
         Debug.Log("GAME OVER!!!");
-        // Add end game logic here
-        // For example, display the end game screen, return to the main menu, etc.
     }
 }

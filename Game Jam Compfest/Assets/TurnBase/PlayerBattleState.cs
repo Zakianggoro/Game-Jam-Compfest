@@ -108,7 +108,7 @@ public class PlayerBattleState : MonoBehaviour
                     StartCoroutine(enemyBattleState.EnemyTurn());
                 }
             });
-            animator.SetTrigger("Attack");  // Trigger attack animation
+            animator.SetTrigger("Attack");  
             yield return new WaitForSeconds(1f);
         }
         else
@@ -121,7 +121,7 @@ public class PlayerBattleState : MonoBehaviour
     {
         playerState = PlayerState.BUSY;
         playerAction.Guard();
-        animator.SetTrigger("Guard");  // Trigger guard animation
+        animator.SetTrigger("Guard");  
         yield return new WaitForSeconds(1f);
         StartCoroutine(enemyBattleState.EnemyTurn());
     }
@@ -136,7 +136,7 @@ public class PlayerBattleState : MonoBehaviour
         playerHealthBar.UpdateEnergy();
         Debug.Log($"Player healed for {healAmount} HP. Heal count: {healCount}/{maxHeals}");
 
-        yield return new WaitForSeconds(1f); // Optional delay for healing animation/effects
+        yield return new WaitForSeconds(1f); 
         StartCoroutine(enemyBattleState.EnemyTurn());
     }
 
@@ -144,7 +144,7 @@ public class PlayerBattleState : MonoBehaviour
     {
         playerState = PlayerState.BUSY;
         player.currentEnergy -= ultimateEnergyCost;
-        int ultimateDamage = player.atk * 3; // Example ultimate damage calculation
+        int ultimateDamage = player.atk * 3; 
         bool isDead = enemyBattleState.enemy.TakeDamage(ultimateDamage);
         enemyBattleState.enemyHealthBar.UpdateHealth();
         playerHealthBar.UpdateEnergy();
@@ -152,7 +152,7 @@ public class PlayerBattleState : MonoBehaviour
 
         if (playerAction != null)
         {
-            animator.SetTrigger("Ultimate");  // Trigger ultimate animation
+            animator.SetTrigger("Ultimate");  
             yield return new WaitForSeconds(1f);
             playerAction.Attack(enemyBattleState.enemyAction, () =>
             {
@@ -179,7 +179,7 @@ public class PlayerBattleState : MonoBehaviour
         if (playerState == PlayerState.WON)
         {
             Debug.Log("WON");
-            // Load the next scene
+
             int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
             if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
             {
@@ -188,7 +188,6 @@ public class PlayerBattleState : MonoBehaviour
             else
             {
                 Debug.Log("No more levels. Game Over.");
-                // Optionally, you can add code to handle the end of the game, like returning to the main menu
             }
         }
         else if (playerState == PlayerState.LOST)
@@ -204,7 +203,7 @@ public class PlayerBattleState : MonoBehaviour
         if (playerState == PlayerState.PLAYERTURN)
         {
             Debug.Log("Player Turn");
-            // Enable player input or display player turn UI here if needed
+           
         }
     }
 }

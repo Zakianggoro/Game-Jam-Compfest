@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene(1); 
     }
-    // Method to quit the game
+
     public void QuitGame()
     {
         Debug.Log("QuitGame called");

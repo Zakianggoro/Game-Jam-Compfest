@@ -8,8 +8,8 @@ public class Dialogue : MonoBehaviour
 {
     public TextMeshProUGUI textComponent;
     public string[] lines;
-    public float textSpeed = 0.05f; // Default value for text speed
-    public float lineWaitTime = 1.0f; // Time to wait after a line is fully displayed before proceeding
+    public float textSpeed = 0.05f;
+    public float lineWaitTime = 1.0f; 
 
     private int index;
 

@@ -54,8 +54,8 @@ public class EnemyBattleState : MonoBehaviour
         {
             // Define actions based on probabilities
             string[] actions = new string[] { "BasicAttack", "BasicAttack", "BasicAttack", "BasicAttack", "BasicAttack", "BasicAttack",
-                                          "Guard", "Guard", "Guard",
-                                          "Heal" };
+                                          "Guard", "Guard",
+                                          "Heal","Heal" };
 
             // Choose a random action
             string chosenAction = actions[Random.Range(0, actions.Length)];
@@ -154,12 +154,10 @@ public class EnemyBattleState : MonoBehaviour
         if (enemyState == EnemyState.WON)
         {
             Debug.Log("WON");
-            // End the battle, perhaps load a victory screen or transition
         }
         else if (enemyState == EnemyState.LOST)
         {
             Debug.Log("LOST");
-            // End the battle, perhaps load a defeat screen or transition
         }
     }
 }
