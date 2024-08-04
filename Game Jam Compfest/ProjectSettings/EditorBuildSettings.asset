@@ -18,14 +18,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Task 1/Dialog 1.unity
     guid: 2f30b2f2aa09f58488b1ee86aa5872bf
   - enabled: 1
+    path: Assets/Scenes/Task 1/Combat.unity
+    guid: 8c92d34b0d010d44cad6c1e607a894e5
+  - enabled: 1
     path: Assets/Scenes/Over World/Overworld 2.unity
     guid: 0e81781db7d7ee94d9d88e0a55e68477
   - enabled: 1
     path: Assets/Scenes/Task 2/Dialog 2.unity
     guid: a3869fa25f06e064abb0c42b272a53bb
   - enabled: 1
-    path: Assets/Scenes/Task 1/Task 2.unity
-    guid: e0733d1fba45847408a84cc592944f9e
+    path: Assets/Scenes/Task 2/Task 2.unity
+    guid: c15c686cda30da9488e4103b956f3c5c
   - enabled: 1
     path: Assets/Scenes/Over World/Overworld 3.unity
     guid: b9fbbe7cd34e3ca47ac8264935714f40
@@ -33,8 +36,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Task 3/Dialog 3.unity
     guid: e17012b9d38c5014cba7c768be16ea44
   - enabled: 1
-    path: Assets/Scenes/Task 3/Task 3.unity
-    guid: 60d88d743fb56b141b91d00c34a0a47a
+    path: Assets/Scenes/Task 3/SHMUP.unity
+    guid: 21fa71c8cc3552d46bfed20e3d9a901f
+  - enabled: 1
+    path: Assets/Scenes/Task 3/SHMUP2.unity
+    guid: 3e63b0ad0d17f1141a0a5610638b71c7
+  - enabled: 1
+    path: Assets/Scenes/Task 3/SHMUP3.unity
+    guid: b616c88a3b794904995fc57d5cd19ad0
   - enabled: 1
     path: Assets/Scenes/Over World/Overworld End.unity
     guid: ff14ed3d068f27f4f9ee72c1ed6598c9

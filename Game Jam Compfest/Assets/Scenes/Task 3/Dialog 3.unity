@@ -841,8 +841,8 @@ MonoBehaviour:
   lines:
   - 'Agung: "Selamat sore, Pak Polisi. Ada yang bisa saya bantu?"'
   - 'Polisi: "Selamat sore! Kami butuh bantuanmu untuk mengalahkan gelombang penjahat
-    yang menyerang kota. Tugasmu adalah mengalahkan mereka dan membantu menjaga keamanan
-    kota." '
+    yang menyerang kota. Tugasmu adalah mengalahkan mereka '
+  - 'dan membantu menjaga keamanan kota." '
   - 'Agung: "Baik Pak Polisi saya akan membantu?"'
   - 'Polisi: "Hati-hati, mereka tidak akan menyerah begitu saja. Semoga beruntung!"'
   - Gunakan W,A,S & D untuk bergerak dan gunakan tombol kiri mouse untuk menembak
